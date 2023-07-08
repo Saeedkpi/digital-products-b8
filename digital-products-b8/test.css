@@ -1,0 +1,8 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+.test {
+    color: blue;
+    cursor: url("logo/logo-light.png"), auto;
+}
