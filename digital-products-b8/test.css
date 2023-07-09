@@ -4,5 +4,28 @@
 }
 .test {
     color: blue;
-    cursor: url("logo/logo-light.png"), auto;
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/hobbiton-lake.jpg"), auto;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: row-reverse;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 120px;
+
+}
+.box2 {
+    padding: 20px;
+    width: 120px;
+    background-color: greenyellow;
+}
+.box3 {
+    padding: 20px;
+    width: 120px;
+    background-color: blueviolet;
 }
